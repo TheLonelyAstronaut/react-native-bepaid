@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="begateway_generic_button" parent="@android:style/TextAppearance">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:background">#688283</item>
+  </style>
+  <style name="begateway_form_fullscreen" parent="Theme.AppCompat.Light">
+    <item name="windowNoTitle">true</item>
+    <item name="android:background">@android:color/transparent</item>
+    <item name="colorPrimary">#688283</item>
+    <item name="colorPrimaryDark">#688283</item>
+  </style>
+  <style name="begateway_base_textview">
+    <item name="android:textColor">#688283</item>
+  </style>
+</resources>
