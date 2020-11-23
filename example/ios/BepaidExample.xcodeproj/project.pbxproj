@@ -122,6 +122,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F5E0901DFCF5642803DFDD44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +215,97 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F5E0901DFCF5642803DFDD44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BepaidExample/Pods-BepaidExample-resources.sh",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgamex.imageset/amex.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgamex.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgbelkart.imageset/belkart.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgbelkart.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgdinersclub.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgdinersclub.imageset/dinersclub.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgdiscover.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgdiscover.imageset/discover.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgjcb.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgjcb.imageset/jcb.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgmaestro.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgmaestro.imageset/maestro.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgmastercard.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgmastercard.imageset/mastercard.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgmir.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgmir.imageset/mir.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgunionpay.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgunionpay.imageset/unionpay.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgunknown.imageset/begateway_ic_unknown.png",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgunknown.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgvisa.imageset/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgvisa.imageset/visa.pdf",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/Contents.json",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgamex.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgbelkart.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgdinersclub.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgdiscover.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgjcb.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgmaestro.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgmastercard.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgmir.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgunionpay.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgunknown.imageset",
+				"${PODS_ROOT}/begateway/begateway/Assets/bgresources.xcassets/bgvisa.imageset",
+				"${PODS_ROOT}/begateway/begateway/Localization/be.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/da.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/de.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/en.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/es.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/fi-FI.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/fr.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/it.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/ja.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/ka.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/nb.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/pl.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/ru.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/sv-SE.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/tr.lproj/Localizable.strings",
+				"${PODS_ROOT}/begateway/begateway/Localization/zh-Hans.lproj/Localizable.strings",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/amex.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contents.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/belkart.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/dinersclub.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/discover.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jcb.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/maestro.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mastercard.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mir.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/unionpay.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/begateway_ic_unknown.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/visa.pdf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgamex.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgbelkart.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgdinersclub.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgdiscover.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgjcb.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgmaestro.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgmastercard.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgmir.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgunionpay.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgunknown.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bgvisa.imageset",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Localizable.strings",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BepaidExample/Pods-BepaidExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -270,6 +362,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = BepaidExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = (
 					"$(inherited)",
@@ -297,6 +390,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = BepaidExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = (
 					"$(inherited)",
@@ -361,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -407,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
