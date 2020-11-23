@@ -11,7 +11,7 @@ BepaidModule.kt and declare it in src/index.tsx to create TS definition of Kotli
 ### iOS
 Native iOS module was written in Swift. Do not forget to create bridging header to use this library!
 To implement from native library just add new payment methods in BepaidViewController.swift and pass params to it throught
-NSObject in Bepaid.swift. You can add additional setup methods to Bepaid.kt and declare it in src/index.tsx
+NSObject in Bepaid.swift. You can add additional setup methods to Bepaid.swift and declare it in src/index.tsx
 to create TS definition of Swift method.
 
 ##### Important:
