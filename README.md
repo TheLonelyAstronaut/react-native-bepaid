@@ -13,9 +13,11 @@ Native iOS module was written in Swift. Do not forget to create bridging header 
 To implement from native library just add new payment methods in BepaidViewController.swift and pass params to it throught
 NSObject in Bepaid.swift. You can add additional setup methods to Bepaid.kt and declare it in src/index.tsx
 to create TS definition of Kotlin method.
+
 ##### Important:
 There is a bug with localization: NSLocalizedString dont work in begateway with RN Bridge, so if you want to change language -
-just copy necessary locale to Danish locale in begateway module.
+just copy necessary locale to Danish locale in begateway module. (but it works correctly on my production project, maybe this is
+develop related bug?)
 
 ### Start test project
     yarn && yarn bootstrap
